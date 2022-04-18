@@ -1,0 +1,67 @@
+.main {
+    background-color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.avatardiv {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.avatardiv .filha {
+    width: 160px;
+    border: transparent;
+    border-radius: 8px;
+}
+
+.filha figure {
+    padding: 0;
+    margin: 0;
+}
+
+.filha img {
+    width: 100%;
+    border-radius: 8px;
+    border: transparent;
+}
+
+figcaption {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.avatardiv img:hover {
+    transition: 350px;
+    border: white solid;
+}
+
+button {
+    width: 160px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    color: gray;
+    border: black solid;
+}
